@@ -118,7 +118,7 @@ public class SeleniumOperations {
 
 		//Double window size manually to 1280x960 and wait 2 second.
 		Dimension bRes = new Dimension(960,1280);
-		driver.manage().window().setSize(aRes);
+		driver.manage().window().setSize(bRes);
 		sleep(2);
 
 		// Sleep a while
