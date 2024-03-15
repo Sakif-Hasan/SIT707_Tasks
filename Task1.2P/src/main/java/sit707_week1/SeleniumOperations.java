@@ -2,7 +2,6 @@ package sit707_week1;
 
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
 /**
@@ -104,7 +103,7 @@ public class SeleniumOperations {
 		// Step 2: Use above chrome driver to open up a chromium browser.
 		System.out.println("Fire up chrome browser.");
 		WebDriver driver = new EdgeDriver();
-		
+
 		System.out.println("Driver info: " + driver);
 		
 		sleep(2);
