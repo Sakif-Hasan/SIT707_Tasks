@@ -6,7 +6,7 @@ package sit707_tasks;
 public class DateUtil {
 
 	// Months in order 0-11 maps to January-December.
-	private static String[] MONTHS = new String[] {
+	private static final String[] MONTHS = new String[] {
 			"January", "February", "March", "April", "May", "June", 
 			"July", "August", "September", "October", "November", "December"
 	};
